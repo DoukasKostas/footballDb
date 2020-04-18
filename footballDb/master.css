@@ -1,0 +1,130 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+label {
+    display: block;
+    width: 250px;
+    float: left;
+}
+
+label:after {
+    content: ": "
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+ul.tab li {
+    float: left;
+}
+
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+ul.tab li a:focus,
+.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.activetab {
+    display: block;
+}
+
+h4 {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+h3.title {
+    margin-bottom: 7px;
+    margin-left: 52px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.inner-ul {
+    padding-bottom: 5px;
+}
+
+.outer-ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: #f1f1f1;
+}
+
+.outer-ul>li {
+    overflow-y: auto;
+    margin: 5px;
+    padding: 5px;
+    height: 413px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.inner-ul>li {
+    padding-right: 5px;
+}
+
+.fill {
+    display: table;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+.searchfrm{
+    float:right;
+    margin-bottom:5px; 
+}
+.deletebtn{
+    text-indent:-9999px;
+    background: transparent url("bin.png") no-repeat center center;
+    background-size:cover;
+    width:35px;
+    height:35px;
+}   
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.hidden{
+    display: none;
+}
